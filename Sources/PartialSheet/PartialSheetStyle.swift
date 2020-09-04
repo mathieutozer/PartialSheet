@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-
+@available(iOS 13.0, *)
 public struct PartialSheetStyle {
 
     /// Background enum
@@ -49,7 +49,7 @@ public struct PartialSheetStyle {
         self.cornerRadius = cornerRadius
     }
 }
-
+@available(iOS 13.0, *)
 extension PartialSheetStyle {
 
     /** A default Style for the PartialSheet with system colors.
